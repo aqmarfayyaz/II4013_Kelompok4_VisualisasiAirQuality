@@ -23,7 +23,7 @@ WEATHER = BASE / "data" / "raw" / "global_air_quality_data_10000.csv"
 MODEL_PKL = BASE / "models" / "aqi_model.pkl"
 METRICS_JSON = BASE / "models" / "metrics.json"
 
-st.set_page_config(page_title="Air Quality Analytics", page_icon="🌍", layout="wide")
+st.set_page_config(page_title="Air Quality Analytics", layout="wide")
 
 # ----------------------------------------------------------------------------- konstanta
 FONT = "'Plus Jakarta Sans', sans-serif"
