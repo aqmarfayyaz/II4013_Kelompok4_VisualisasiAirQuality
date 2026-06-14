@@ -1,0 +1,57 @@
+{
+  "results": [
+    {
+      "Model": "Random Forest",
+      "MAE": 0.0373,
+      "RMSE": 0.8018,
+      "R2": 1.0
+    },
+    {
+      "Model": "Gradient Boosting",
+      "MAE": 0.7589,
+      "RMSE": 1.2898,
+      "R2": 0.9999
+    },
+    {
+      "Model": "Max Pollutant Rule",
+      "MAE": 6.1432,
+      "RMSE": 19.0435,
+      "R2": 0.9822
+    },
+    {
+      "Model": "Linear Regression",
+      "MAE": 9.4182,
+      "RMSE": 19.8912,
+      "R2": 0.9806
+    },
+    {
+      "Model": "PM2.5 Only",
+      "MAE": 9.4365,
+      "RMSE": 20.4756,
+      "R2": 0.9794
+    },
+    {
+      "Model": "Baseline Mean",
+      "MAE": 104.8689,
+      "RMSE": 142.8844,
+      "R2": -0.0017
+    }
+  ],
+  "best_model": "Random Forest",
+  "feature_importance": {
+    "PM2.5 AQI Value": 0.9979,
+    "Ozone AQI Value": 0.0011,
+    "averaged_over_in_hours": 0.0008,
+    "longitude": 0.0,
+    "traffic_pollution_proxy": 0.0,
+    "CO AQI Value": 0.0,
+    "NO2 AQI Value": 0.0,
+    "month": 0.0,
+    "hour": 0.0,
+    "value": 0.0,
+    "latitude": 0.0,
+    "day_of_week": 0.0
+  },
+  "n_train": 11619,
+  "n_test": 2905
+}
