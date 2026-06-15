@@ -20,17 +20,17 @@ Dataset utama digabung dengan *inner join* pada pasangan kota–negara, menghasi
 
 ```
 TubesDatalVisualisasi/
-├── app.py                         aplikasi Streamlit (6 halaman)
-├── prepare_data.py                pipeline data + pelatihan model
-├── requirements.txt               daftar dependensi
-├── README.md                      petunjuk penggunaan
+├── app.py                              aplikasi Streamlit (6 halaman)
+├── prepare_data.py                     pipeline data + pelatihan model
+├── requirements.txt                    daftar dependensi
+├── README.md                           petunjuk penggunaan
 ├── data/
-│   ├── raw/                       2 dataset mentah
-│   └── processed/                 dataset hasil scrub (dengan dan tanpa encode)
+│   ├── raw/                            2 dataset mentah
+│   └── processed/                      dataset hasil scrub (dengan dan tanpa encode)
 ├── models/
-│   ├── aqi_model.pkl              model terbaik + daftar fitur
-│   └── metrics.json               metrik & feature importance
-└── II4013_Notebook_Kelompok_4.ipynb   notebook ipynb
+│   ├── aqi_model.pkl                   model terbaik + daftar fitur
+│   └── metrics.json                    metrik & feature importance
+└── II4013_Notebook_Kelompok_4.ipynb    notebook ipynb
 ```
 
 ## Cara Menjalankan
